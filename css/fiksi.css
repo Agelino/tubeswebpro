@@ -1,0 +1,157 @@
+
+
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.book-card {
+  height: 320px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+ }
+
+.book-image {
+  width: 180px;
+  height:200px;
+  cursor: pointer;
+}
+
+
+.view-grid i{
+  display: flex; 
+  align-items: center;
+ justify-content: center;
+}
+.book-card .view-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  z-index: 1000;
+}
+
+.book-card strong{
+  font-size: 15px;
+}
+
+
+/* Styling untuk Overlay Popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; /* Awalnya tersembunyi */
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menampilkan Popup */
+.popup-overlay.active {
+  display: flex;
+  z-index: 999;
+}
+/* Konten Popup */
+.popup-content {
+  background: white;
+  padding: 20px;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+/* Gambar Buku dalam Popup */
+.popup-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Layout untuk Gambar Buku dan Sinopsis di dalam Popup */
+.popup-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 75px;
+}
+
+/* Judul Buku dan Penulis */
+.popup-content h2 {
+  text-align: center;
+  font-size: 24px;
+  /* margin: 0; */
+}
+
+
+/* Sinopsis Buku */
+.popup-synopsis {
+  max-width: 500px;
+  text-align: justify;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.popup-overlay-hidden p .author{
+  text-align: left;
+  margin-top: 10px;
+}
+.author{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: rgba(255,255,255,0.08);
+  padding: 2px 5px;
+  margin: 24px;
+  margin-left: 58px;
+  font-size: 12px;
+  font-style: italic;
+  color: #333;
+  border-radius: 3px;
+}
+
+/* Tombol Tutup */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+/* Card Buku */
+.book-card {
+margin: 20px;
+cursor: pointer;
+}
+
+/* Gambar Buku */
+
+
+/* Judul Buku */
+.book-card p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.image img{
+  
+}

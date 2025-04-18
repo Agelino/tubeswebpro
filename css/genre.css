@@ -1,0 +1,224 @@
+nav {
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 5px;
+    
+  }
+  
+  /* Main Content */
+  main {
+    
+    
+    overflow-y: auto;
+  }
+  
+  .utama {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+  
+  .isi {
+    padding: 2rem;
+    box-shadow: -7px 0px 9px gray;
+    margin-top: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  }
+  
+  .book-grid {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+  }
+  
+  .book-card {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 140px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease;  */
+  }
+  
+  
+  .view-grid i{
+    display: flex; 
+    align-items: center;
+   justify-content: center;
+  }
+  .book-card .view-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    z-index: 1000;
+  }
+  /* .view{
+    display: flex;  
+    justify-content: center;  
+    font-size: small;
+  }
+  
+  .book image{
+    width: 200px;
+    cursor: pointer;
+  } */
+  .book-card strong{
+    font-size: 15px;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; 
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-overlay.active {
+    display: flex; 
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .popup-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .popup-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 75px;
+  }
+  
+  
+  .popup-content h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  
+  .popup-synopsis {
+    max-width: 500px;
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .popup-overlay-hidden p .author{
+    text-align: left;
+    margin-top: 10px;
+  }
+  .author{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background:rgba(255,255,255,0.08);
+    padding: 2px 5px;
+    margin: 24px;
+    margin-left: 58px;
+    font-size: 12px;
+    font-style: italic;
+    color: #333;
+    border-radius: 3px;
+  }
+  
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  
+  
+  .book-card {
+    margin: 20px;
+    cursor: pointer;
+  
+  }
+  
+  
+  .book-image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  
+  .book-card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .judul{
+    text-align: center;
+    
+}
+
+.content {
+    margin-left: 220px;
+    margin-top: -55px;
+    padding: 10px;
+    
+}
+ a.showmore{
+    color: black;
+    font-weight: bold;
+    margin: -3px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.showmore{
+    display: block;
+    text-decoration: none;
+}

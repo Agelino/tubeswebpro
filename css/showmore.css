@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 210, 218);
+  }
+  
+  .container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-image {
+    flex: 0 0 35%;
+    padding: 20px;
+  }
+  
+  .book-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .book-details {
+    flex: 1;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .book-details h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0;
+    color: #222;
+  }
+  
+  .starts {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .starts div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .buttons {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons .start-reading {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .buttons .start-reading:hover {
+    background-color: #333;
+  }
+  
+  .full-synopsis {
+    margin-top: 15px;
+  }
+  
+  .full-synopsis p {
+    font-size: 0.9rem;
+    color: #555;
+  }

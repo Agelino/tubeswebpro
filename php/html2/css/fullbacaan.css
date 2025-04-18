@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text: Arial;
+}
+
+.dekor{
+    text-align: center;
+}
+.chapter-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.chapter-title-logo {
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(129, 129, 124);
+    margin-top: 25px;
+}
+
+.font-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #7590e7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5e7de0;
+}
+
+button:active {
+    background-color: #5e7de0;
+}
+
+.author {
+    float: left;
+    margin-top: -50px;
+    margin-left: -120px;
+
+}
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.text {
+    line-height: 1.8;
+    margin-top: 70px;
+
+}
+.sidebar {
+    float: right;
+    width: 300px;
+    margin-right: -220px;
+    
+}
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+.sidebar .book-suggestion {
+    display: flex;
+    margin-bottom: 15px;
+}
+.sidebar img {
+    width: 50px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.next-page{
+    text-align: right;
+}
+
+.next-page-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.next-page-button:hover {
+    background-color: #0056b3;
+}
+
+.back-page{
+    text-align: left;
+}
+
+.back-page-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.back-page-button:hover {
+    background-color: #0056b3;
+}
+
+.book-suggestion {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.book-suggestion:hover {
+    background-color: #f1f1f1;
+}
+
+.comment-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comment-button-link {
+    display: inline-block;
+    background-color: #717471;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.comment-button-link:hover {
+    background-color: #292b29;
+}
+
+  .slider-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            justify-content: right;
+        }
+        .slider {
+           justify-content: right;
+            -webkit-appearance: none;
+            appearance: none;
+            height: 8px;
+            background: #555;
+            border-radius: 5px;
+            outline: none;
+        }
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+        }
+        .slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+        }

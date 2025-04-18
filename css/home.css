@@ -1,0 +1,148 @@
+.satuan1{
+  background-color:lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: start;
+  padding: 30px;
+}
+.satuan2{
+  background-color:lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: end;
+  padding-right: 20px;
+}
+
+/* .image img{
+  filter: drop-shadow(1px 1px 20px yellow);
+} */
+
+.book-card {
+  height: 320px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 1s ease, box-shadow 1s ease;
+  filter: drop-shadow(1px 1px 20px black);
+}
+
+.book-card:hover {
+  transform: scale(1.5);
+  box-shadow: 0 4px 15px black;
+}
+
+.book-image {
+  width: 180px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.book-image:hover {
+  transform: scale(1.1);
+}
+
+.view-grid i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.view-grid i:hover {
+  color: #007BFF;
+}
+.semua {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.Atas{
+  animation: yahuu 2s ease-in-out;
+}
+
+@keyframes yahuu {
+  0% {
+    opacity: 0;
+    transform: translate(20px,10px);
+   
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.satuan1, .satuan2 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: gray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.satuan1:hover, .satuan2:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.satuan3 img {
+  transition: transform 0.3s ease;
+}
+
+.satuan3 img:hover {
+  transform: scale(1.1); /* Membesarkan gambar */
+}
+
+
+h1 {
+  transition: color 0.3s ease;
+  /* filter: drop-shadow(1px 1px 20px yellow); */
+}
+
+h1:hover {
+  color: black; 
+  
+}
+
+video{
+  width: 100%;
+}
+.semua h1{
+ color: black;
+ /* font-weight: bold; */
+ font-family: Verdana, sans-serif;
+ font-size: 30px;
+}
+.semua h2{
+  font-weight: bold;
+  font-family: Georgia, sans-serif;
+  font-size: 25px;
+}
+.search-box {
+  position: relative;
+  width: 220px;
+  margin: 8px;
+}
+
+.search-box input.search {
+  width: 100%;
+  padding: 10px 35px 10px 10px; /* padding kanan untuk ikon */
+  box-sizing: border-box;
+}
+
+.search-box i.fa-magnifying-glass {
+  position: absolute;
+  right: 35px;
+  top: 35%;
+  transform: translateY(-50%);
+  color: #888; /* warna ikon */
+  pointer-events: none; /* biar nggak ganggu klik input */
+}

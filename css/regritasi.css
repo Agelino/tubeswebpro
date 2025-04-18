@@ -1,0 +1,84 @@
+.Untuknama{
+    display: flex;
+
+}
+
+.Untuknama input{
+    width: 33%;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}
+
+.Untukusername{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.Untukusername input{
+    width:70% ;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+.Untukpassword input{
+    width:70% ;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.Untuksetuju input{
+width: 20px;
+}
+.utama{
+    padding: 50px;
+    border-radius: 10px;
+    animation: bagus 2s ease-in-out;
+}
+
+@keyframes bagus{
+    0%{
+        transform: translateY(50px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.Untukbutton button{
+    width:70% ;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(73, 0, 128);
+    color: white;
+}
+
+.Untukbutton  button:hover{
+    background-color: black;
+}
+video{
+    width: 100%;
+    border-radius: 10px;
+    animation: bagus 2s ease-in-out;
+}
+
+.content{
+    animation: bagus 2s ease-in-out;
+}
+
+
